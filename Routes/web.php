@@ -20,5 +20,5 @@ Route::get('add','UserController@create');
 Route::post('add','UserController@store');
 Route::get('user','UserController@index');
 Route::get('edit/{id}','UserController@edit');
-Route::post('edit/{id}','UserController@update');
+Route::put('edit/{id}','UserController@update');
 Route::delete('{id}','UserController@destroy');
